@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className=''>
             {/* <MobileMenu isOpen={isMobileMenuOpen} onClose={toggleMobileMenu} /> */}
             
-            <div>connect</div>
+            <div></div>
     </nav>
     </div>
   );
