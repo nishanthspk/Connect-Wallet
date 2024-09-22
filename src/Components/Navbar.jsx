@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import CustomButton from './Button';
+import CustomButton from './Button';
 // import MobileMenu from '../Components/MobileView.jsx';
 import {  useNavigate  } from "react-router-dom";
 import { useState } from 'react'
@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className=''>
             {/* <MobileMenu isOpen={isMobileMenuOpen} onClose={toggleMobileMenu} /> */}
             
-            <div></div>
+            <div>  <CustomButton /></div>
     </nav>
     </div>
   );
