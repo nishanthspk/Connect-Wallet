@@ -20,9 +20,10 @@ import {
 const config = getDefaultConfig({
   appName: 'My RainbowKit App',
   projectId: 'YOUR_PROJECT_ID',
-  chains: [polygonAmoy],
-  ssr: true, // If your dApp uses server side rendering (SSR)
+  chains: [polygon], // or other chains
+  ssr: false, // Try setting this to false
 });
+
 const queryClient = new QueryClient();
 
 
