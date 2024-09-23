@@ -6,7 +6,7 @@ import {  useNavigate  } from "react-router-dom";
 import { useState } from 'react'
 
 const Navbar = () => {
-//   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
   const navigate = useNavigate();
 
 
