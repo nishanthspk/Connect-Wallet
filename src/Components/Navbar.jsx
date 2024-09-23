@@ -9,9 +9,7 @@ const Navbar = () => {
 //   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const navigate = useNavigate();
 
-//   const toggleMobileMenu = () => {
-//     setIsMobileMenuOpen(!isMobileMenuOpen);
-//   };
+
   return (
     <div className=' ' >
     <nav className=''>
